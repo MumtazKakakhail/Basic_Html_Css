@@ -1,0 +1,12 @@
+#main_dev{background-color: rgb(236, 202, 156);
+
+}
+*{
+    background-color:rgb(235, 224, 224);
+}
+.heading{
+    background-color: blue;
+}
+h3, h4{
+    font-size: 30px;
+}
