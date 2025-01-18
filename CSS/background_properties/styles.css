@@ -10,8 +10,10 @@
             background-position: center;
             background-size: cover;
             height: 300px;
+            padding-left: 10px;
              background-attachment: fixed;
             background-blend-mode: multiply;
+            /* background-origin:padding-box; */
 
         }
         .unordered {
