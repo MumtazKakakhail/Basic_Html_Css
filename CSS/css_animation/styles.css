@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    animation-name: circular-motion;
+    background-color: brown;
+    animation: circular-motion 5s infinite linear;
+}
+
+/* @keyframes circular-motio {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 250px;
+        left: 0px;
+    }
+} */
+ @keyframes circular-motion  {
+    0% {
+        transform: rotate (360deg)
+        translateX(100px) rotate(0deg)
+    }
+   100% {
+    transform: rotate(360deg)
+    translateX(100px) rotate(-360deg)
+   } 
+    
+}
