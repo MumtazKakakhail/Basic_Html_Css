@@ -2,12 +2,17 @@
     padding: 0px;
     margin: 0px;
 }
+.container {
+    background-color: aquamarine;
+}
 .box {
     width: 250px;
     height: 250px;
     animation-name: circular-motion;
+    position: relative;
     background-color: brown;
-    animation: circular-motion 5s infinite linear;
+    animation-duration: 2s;
+    animation: circular-motion  infinite linear;
 }
 
 /* @keyframes circular-motio {
