@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: medium;
+    color: blue;
+}
+.image {
+    width: 20px;
+    height: 20px;
+    
+}
