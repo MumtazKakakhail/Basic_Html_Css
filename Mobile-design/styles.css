@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-background: linear-gradient(to bottom, #2c3e50, #e0c99a);
+background: linear-gradient(to bottom, #4e3a61, #e7c98e, rgb(14, 13, 13));
   color: white;
   display: flex;
   justify-content: center;
@@ -17,7 +17,18 @@ background: linear-gradient(to bottom, #2c3e50, #e0c99a);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 10px solid black;
 }
+
+.top-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
 
 .top-bar {
   display: flex;
