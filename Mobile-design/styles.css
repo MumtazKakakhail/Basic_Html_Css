@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(to bottom, #2c3e50, #e0c99a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mobile-screen {
+  width: 300px;
+  height: 600px;
+  padding: 20px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.date {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 0;
+  color: rgb(204, 203, 203);
+}
+
+.status-icons {
+  font-size: 12px;
+  text-align: right;
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 120px;
+}
+
+.app {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  height: 60px;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: 60%;
+  font-size: 14px;
+}
+
+.dock {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
